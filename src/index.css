@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=IM+Fell+Great+Primer:ital@0;1&family=Jaro:opsz@6..72&family=Jomhuria&family=Kreon:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-jomhuria: "Jomhuria", serif; 
+  --font-jaro: "Jaro", sans-serif;
+  --font-caveat: "Caveat", cursive;
+  --font-kreon: "Kreon", serif;
+  --font-imFell: "IM Fell Great Primer", serif;
+}
+
+html, body {
+  overscroll-behavior-x: none;
+}
+
+/* 
+body {
+    background: linear-gradient(to bottom,#000000, #303030) no-repeat;
+} */
